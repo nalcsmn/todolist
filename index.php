@@ -44,6 +44,12 @@ require_once 'php/init.php';
         </div>
       </div>
     </form>
+      <?php
+      $view = new view();
+      // var_dump($view->viewData());
+      $view->viewData();
+      ?>
+
 
   </div>
 
