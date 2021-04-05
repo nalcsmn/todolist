@@ -48,6 +48,7 @@ require_once 'php/init.php';
       $view = new view();
       // var_dump($view->viewData());
       $view->viewData();
+      $view->viewCompleteData();
       ?>
 
 
