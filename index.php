@@ -31,6 +31,7 @@ require_once 'php/init.php';
     <?php
 
     insertT();
+    deleteT();
     ?>
 
     <form action="" method="GET">
@@ -48,6 +49,7 @@ require_once 'php/init.php';
       $view = new view();
       // var_dump($view->viewData());
       $view->viewData();
+      $view->viewCompleteData();
       ?>
 
 
