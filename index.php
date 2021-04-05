@@ -32,6 +32,7 @@ require_once 'php/init.php';
 
     insertT();
     deleteT();
+    editT();
     ?>
 
     <form action="" method="GET">

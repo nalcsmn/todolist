@@ -44,7 +44,7 @@ class view extends config{
         echo "<thead>
             <tr>
                  <th>Task Item</th>
-                  <th>DaRE Completed</th>
+                  <th>Date Completed</th>
             </tr>
              </thead><tbody>";
         foreach($result as $data){
