@@ -4,17 +4,7 @@ require_once 'php/init.php';
 // $con = new config();
 // $con->con();
 
-if (!empty($_GET['items'])) {
-  $insert = new insert($_GET['items']);
-  if ($insert->insertTask()) {
-    echo '<script language="javascript">';
-    echo 'alert("message successfully sent")';
-    echo '</script>';
-    // echo "TASk INserted succesfully!";
-  } else {
-    echo "error";
-  }
-}
+
 
 
 ?>
@@ -38,6 +28,11 @@ if (!empty($_GET['items'])) {
     <span class="navbar-brand mb-0 h1">To-do List App</span>
   </nav>
   <div class="container mt-5">
+    <?php
+
+    insertT();
+    ?>
+
     <form action="" method="GET">
       <div class="row">
         <div class="col-md-9 form-group">
